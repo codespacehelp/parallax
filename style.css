@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  background-color: rgb(255, 243, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 2rem;
+  color: rgb(106, 155, 245);
+}
+
+.container.horizontal{
+    background-color: rgb(255, 243, 228);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 2rem;
+    color: cornflowerblue;
+}
+
+.white {
+  background-color: aliceblue;
+}
+
+.section-video {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-parallax {
+  min-height: 150vh;
+  position: relative;
+  background-color: lightblue;
+}
+.section-parallax__images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 5rem;
+}
+
+.section-paralax__text {
+  position: sticky;
+  top: 0;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
