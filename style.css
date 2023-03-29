@@ -28,13 +28,6 @@ body {
 .white {
   background-color: aliceblue;
 }
-
-.section-video {
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .section-parallax {
   min-height: 150vh;
   position: relative;
@@ -50,9 +43,7 @@ body {
 .section-paralax__text {
   position: sticky;
   top: 0;
-  left: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
